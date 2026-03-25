@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maronite Path</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>✝ Maronite Bible App</h1>
+
+<div class="card">
+  <h2>Daily Verse</h2>
+  <p id="verseText">Click below to get a verse</p>
+  <p id="verseRef"></p>
+
+  <button onclick="getRandomVerse()">Random Verse</button>
+  <button onclick="getTopicVerse()">By Topic</button>
+</div>
+
+<div class="card">
+  <h2>Goals</h2>
+  <input id="goalInput" placeholder="Enter goal">
+  <button onclick="addGoal()">Add Goal</button>
+  <ul id="goalList"></ul>
+</div>
+
+<div class="card">
+  <h2>Repentance Journey</h2>
+  <p>1. Acknowledge your struggle</p>
+  <p>2. Pray daily</p>
+  <p>3. Replace bad habits</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
